@@ -1,0 +1,58 @@
+# ===== 컴파일 목적 파일(Object files) =====
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+
+# ===== 실행 파일 =====
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+a.out
+
+# ===== 라이브러리 파일 =====
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# ===== 디버그 심볼 =====
+*.pdb
+*.dSYM/
+*.su
+*.idb
+
+# ===== 전처리/중간 산출물 =====
+*.i
+*.ii
+*.gch
+*.pch
+
+# ===== gdb / 코어 덤프 =====
+core
+core.*
+vgcore.*
+*.stackdump
+
+# ===== VS Code =====
+# tasks.json, launch.json은 프로젝트마다 공유할 수도 있어서 기본은 유지.
+# 개인 설정만 제외하고 싶으면 아래 주석 해제
+# .vscode/settings.json
+.vscode/ipch/
+.vscode/*.log
+
+# ===== 빌드 디렉토리 =====
+build/
+bin/
+out/
+cmake-build-*/
+
+# ===== OS 잡파일 =====
+.DS_Store
+Thumbs.db
+desktop.ini
